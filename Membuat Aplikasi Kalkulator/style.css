@@ -1,0 +1,74 @@
+body{
+    background: rgb(235, 188, 188);
+    text-align: center;
+    font-family: tahoma;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#container{
+    width: 200px;
+    margin: 8px 8px 20px 8px;
+    padding: 0 10px;
+    border-color: #c1c1c1;
+    border-radius: 4px;
+    border-bottom: 2px solid #c1c1c1;
+    border-top: 2px solid #c1c1c1;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-color: 2px solid #fff;
+    box-shadow: inset 0px 0px 10px #030303,inset 0px -20px 1px whitesmoke;
+    font-size: 28px;
+    color: #666;
+    text-align: center;
+    font-weight: 400px;
+}
+#display{
+    display: block;
+    width: 200px;
+    margin: 50px;
+    padding: 0 15px;
+    height: 42px ;
+    border-radius: 4px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: inset 0px 0px 10px #030303,inset 0px -20px 1px (150,150,150,2);
+    font-size: 28px;
+    color: #030303;
+    text-align: right;
+    font-weight: 400px;
+}
+.button{
+    display: inline-block;
+    width: 42px;
+    margin: 2px;
+    padding: 0 15px;
+    height: 42px;
+    color: black;
+    border-radius: 4px;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+    border-left: 2px solid wheat;
+    border-right: 2px solid wheat;
+    font-size: 20px;
+    text-align: bold;
+}
+#btnC{
+    display: inline-block;
+    width: 205px;
+    margin: 10px;
+    padding: 0 16px;
+    background-color: rgb(230, 84, 84);
+    border-radius: 4px;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+    border-left: 2px solid wheat;
+    border-right: 2px solid wheat;
+    font-size: 28px;
+    text-align: bold;
+}
